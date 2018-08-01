@@ -1,12 +1,12 @@
 ## GIT KOMUTLARI
 
-### - KULLANICI BILGILERI :
+#### KULLANICI BILGILERI
 ``` 
   git config --global user.name "kullanıcı adı"
   git config --global user.email "e-posta"
   git config --list           # Calisma ve kullanici bilgilerini göster
 ``` 
-### - YEREL DEPO 
+#### YEREL DEPO 
 ``` 
   git add <DOSYA(LAR)>        # Yeni ve degismis dosyalari guncellenecekler listesine ekle
   git add .                   # Yeni ve degismis dosyalarin tumunu guncellenecekler listesine ekle
@@ -22,13 +22,13 @@
   git status                  # Calisma agacindaki durumu goster
   git log                     # Islem gunlugunu goster 
 ``` 
-### - UZAK DEPO 
+#### UZAK DEPO 
 ``` 
   git clone <ADRES>           # Uzaktaki depoyu klonla
   git pull                    # Depodaki son degisiklikleri al
   git push                    # Yereldeki degisiklikleri uzak depoda uygula (origin master)komutuda eklenebilir
 ``` 
-### - DAL (BRANCH) KOMUTLARI 
+#### DAL (BRANCH) KOMUTLARI 
 ``` 
   git branch <DAL ADI>        # Dal olustur
   git branch                  # Dallari goster
@@ -36,7 +36,7 @@
   git merge <DAL ADI>         # Dallari birlestir
   git branch -d <DAL ADI>     # Dal sil
 ``` 
-### - DIGER KOMUTLAR 
+#### DIGER KOMUTLAR 
 ```  
   git --version               # Git versiyon numarasını  göster
   git --help                  # Git yardım sayfasını göster 
@@ -55,12 +55,12 @@
   git grep                    # Mevcut dal icersinde kelime veya ifade arama
   gitk                        # Git gorsellestirme programi
 ``` 
-### - NOTLAR
+#### NOTLAR
 ``` 
   1- <DOSYA(LAR)>  yazili bolumlerde islem yapilan oge veya ogeler yazilacaktir.
   2- Git ontanımlı olarak depo isimlerini origin olarak atar.
 ``` 
-### - KAYNAKCA
+#### KAYNAKCA
 ``` 
   [1] http://www.kernel.org/pub/software/scm/git/docs/
   [2] http://git-scm.com/book
