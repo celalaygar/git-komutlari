@@ -1,13 +1,13 @@
 ## GIT KOMUTLARI
 
 ### - KULLANICI BILGILERI :
-    
+``` 
     git config --global user.name "kullanıcı adı / rumuz"
     git config --global user.email "E-posta"
     git config --list             # Calisma ve kullanici bilgilerini göster
-
+``` 
 ### - YEREL DEPO 
-
+``` 
     git add <DOSYA(LAR)>          # Yeni ve degismis dosyalari guncellenecekler listesine ekle
     git add .                     # Yeni ve degismis dosyalarin tumunu guncellenecekler listesine ekle
     git add -u                    # Silinmis ve degistirilmis dosyalari guncellenecekler listesine ekle
@@ -21,13 +21,13 @@
     git diff --cached             # Listeye Eklenen Değişiklikler Arasındaki Farkları Göster
     git status                    # Calisma agacindaki durumu goster
     git log                       # Islem gunlugunu goster 
-
+``` 
 ### - UZAK DEPO 
- 
+``` 
    git clone <ADRES>              # Uzaktaki depoyu klonla
    git pull                       # Depodaki son degisiklikleri al
    git push                       # Yereldeki degisiklikleri uzak depoda uygula (origin master)komutuda eklenebilir
-   
+``` 
 ### - DAL (BRANCH) KOMUTLARI 
 ``` 
    git branch <DAL ADI>           # Dal olustur
