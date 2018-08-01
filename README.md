@@ -24,41 +24,41 @@
 ``` 
 ### - UZAK DEPO 
 ``` 
-   git clone <ADRES>              # Uzaktaki depoyu klonla
-   git pull                       # Depodaki son degisiklikleri al
-   git push                       # Yereldeki degisiklikleri uzak depoda uygula (origin master)komutuda eklenebilir
+    git clone <ADRES>              # Uzaktaki depoyu klonla
+    git pull                       # Depodaki son degisiklikleri al
+    git push                       # Yereldeki degisiklikleri uzak depoda uygula (origin master)komutuda eklenebilir
 ``` 
 ### - DAL (BRANCH) KOMUTLARI 
 ``` 
-   git branch <DAL ADI>           # Dal olustur
-   git branch                     # Dallari goster
-   git checkout <DAL ADI>         # Calisilan dali degistir    
-   git merge <DAL ADI>            # Dallari birlestir
-   git branch -d <DAL ADI>        # Dal sil
+    git branch <DAL ADI>           # Dal olustur
+    git branch                     # Dallari goster
+    git checkout <DAL ADI>         # Calisilan dali degistir    
+    git merge <DAL ADI>            # Dallari birlestir
+    git branch -d <DAL ADI>        # Dal sil
 ``` 
 ### - DIGER KOMUTLAR 
 ```  
-   git --version                  # Git versiyon numarasını  göster
-   git --help                     # Git yardım sayfasını göster 
-   git remote -v                  # Uzak depo adresini ver
-   git log --since=<LIMIT>        # Iki zaman araligindaki commitleri goster
-   git shortlog -s                # Commit yapanlarin isim ve commit sayilarini goster
-   git shortlog -e                # Commit yapanlarin isim ve E-postalarini goster
-   git shortlog -n                # Commit yapanlari commit sayisina gore sirala 
-   git reset -- hard HEAD         # Son yapılan degisiklikleri iptal ederek HEAD geri don
-   git checkout -- <DOSYA>        # Sadece bir dosyayi depodaki haline geri getir
-   git revert HEAD                # Son yapilan commiti geri al
-   git stash save                 # Commit yapilmamis degisiklikleri kaydet
-   git stash pop                  # Commit yapilmamis degisikliklere geri don
-   git stash list                 # Commit yapilmamis degisiklikleri listele
-   git stash drop                 # Commit yapilmamis degisiklikleri kaldır
-   git grep                       # Mevcut dal icersinde kelime veya ifade arama
-   gitk                           # Git gorsellestirme programi
+    git --version                  # Git versiyon numarasını  göster
+    git --help                     # Git yardım sayfasını göster 
+    git remote -v                  # Uzak depo adresini ver
+    git log --since=<LIMIT>        # Iki zaman araligindaki commitleri goster
+    git shortlog -s                # Commit yapanlarin isim ve commit sayilarini goster
+    git shortlog -e                # Commit yapanlarin isim ve E-postalarini goster
+    git shortlog -n                # Commit yapanlari commit sayisina gore sirala 
+    git reset -- hard HEAD         # Son yapılan degisiklikleri iptal ederek HEAD geri don
+    git checkout -- <DOSYA>        # Sadece bir dosyayi depodaki haline geri getir
+    git revert HEAD                # Son yapilan commiti geri al
+    git stash save                 # Commit yapilmamis degisiklikleri kaydet
+    git stash pop                  # Commit yapilmamis degisikliklere geri don
+    git stash list                 # Commit yapilmamis degisiklikleri listele
+    git stash drop                 # Commit yapilmamis degisiklikleri kaldır
+    git grep                       # Mevcut dal icersinde kelime veya ifade arama
+    gitk                           # Git gorsellestirme programi
 ``` 
 ### - NOTLAR
 ``` 
-1- <DOSYA(LAR)>  yazili bolumlerde islem yapilan oge veya ogeler yazilacaktir.
-2- Git ontanımlı olarak depo isimlerini origin olarak atar.
+    1- <DOSYA(LAR)>  yazili bolumlerde islem yapilan oge veya ogeler yazilacaktir.
+    2- Git ontanımlı olarak depo isimlerini origin olarak atar.
 ``` 
 ### - KAYNAKCA
 ``` 
